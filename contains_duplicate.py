@@ -1,4 +1,4 @@
-def contains_duplicate(nums):
+def contains_duplicate(nums: list[int]) -> bool:
     hash_set = set()
 
     for num in nums:
