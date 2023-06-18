@@ -1,6 +1,5 @@
 from collections import Counter
 
-
 def valid_anagram_sol_1(s: str, t: str) -> bool:
     if len(s) != len(t):
         return False
